@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('repo') {
             steps {
-                git branch: 'master', url: 'https://github.com/luisaque/pps3.git'
+                git branch: 'main', url: 'https://github.com/luisaque/pps3.git'
             }
         }
 
