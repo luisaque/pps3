@@ -10,7 +10,7 @@ pipeline {
 
         stage('contruirTrabajo') {
             steps {
-                sh './mvnw clean package'
+                sh 'sudo ./mvnw clean package'
             }
         }
         stage('Desplegar') {
